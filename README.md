@@ -160,8 +160,9 @@ make -j$(nproc)
 # 4. 运行测试
 cd ..
 python -m pytest tests/ -v
+```
 
-运行对战
+### 运行对战
 # 启动1v1对战
 python main.py --mode=heads-up --model=models/gto-v1.pt
 
@@ -200,7 +201,7 @@ int main() {
     return 0;
 }
 
-训练流程
+### 训练流程
 # 1. 准备训练配置
 cp conf/train_example.yaml conf/train.yaml
 vim conf/train.yaml  # 修改参数
@@ -221,7 +222,7 @@ python visualize/decision_board.py --model=models/gto-v1.pt
 # 启动策略热力图分析
 python visualize/strategy_heatmap.py --model=models/gto-v1.pt --position=BTN
 
-性能数据
+### 性能数据
 
 测试环境：AMD EPYC 2×128 Cores | 2TB RAM | Ubuntu 22.04
 | 指标                  | 数值        |
@@ -234,7 +235,7 @@ python visualize/strategy_heatmap.py --model=models/gto-v1.pt --position=BTN
 | **最大支持对战人数**        | 1v9       |
 
 
-应用场景
+### 应用场景
 | 场景          | 说明                     |
 | ----------- | ---------------------- |
 | 📚 **策略学习** | 通过AI决策学习GTO策略，提升扑克理论水平 |
@@ -246,7 +247,7 @@ python visualize/strategy_heatmap.py --model=models/gto-v1.pt --position=BTN
 
 
 
-常见问题
+### 常见问题
 
 Q1: 这个项目可以用于商业用途吗？
 A: 源码仅供学习研究。如需商业用途，请联系获取授权协议。
@@ -265,14 +266,14 @@ A: 支持。可在opponent/目录下定义新的对手策略，并在配置文�
 Q8: 需要多少算力才能运行？
 A: 推理阶段仅需普通CPU即可运行；训练阶段建议配备多核服务器与充足内存。
 
-SEO关键词
+### SEO关键词
 
 以下关键词用于搜索引擎索引，覆盖全球多语言搜索场景
 中文关键词： 扑克GTO训练器、德州扑克AI工具、扑克AI助手、CFR算法实现、反事实遗憾最小化、博弈论最优策略、非完美信息博弈、强化学习扑克、深度神经网络扑克、多智能体决策、扑克AI引擎、扑克策略求解器、GTO策略学习、纳什均衡扑克、德州扑克机器人、扑克AI训练、自我博弈训练、扑克决策系统、扑克策略分析、扑克游戏AI、AI扑克对手、智能扑克系统、扑克API、扑克开发者工具
 English Keywords: Poker GTO Trainer, Texas Hold'em AI Assistant, Poker AI Tool, CFR Poker AI, Counterfactual Regret Minimization, Game Theory Optimal Poker, Imperfect Information Game AI, Reinforcement Learning Poker, Deep Learning Poker, Multi-Agent Decision Making, Poker Bot Engine, GTO Strategy Engine, Nash Equilibrium Poker, Poker AI Source Code, Self-Play Poker Training, Poker Decision System, Poker Strategy Solver, Poker Game AI, AI Poker Opponent, Intelligent Poker System, Heads-Up Poker AI, No-Limit Texas Hold'em AI, Poker AI Research, Poker AI Benchmark, Poker AI GitHub, Open Source Poker AI, Poker AI Tutorial, Poker AI Implementation, Poker AI C++, Poker AI Python, Poker AI PyTorch, Poker Developer API, Poker AI Library
 
 
-许可证
+### 许可证
 
 本项目采用 MIT License 开源协议。
 📚 学习用途：允许自由下载、学习、研究
@@ -281,7 +282,7 @@ English Keywords: Poker GTO Trainer, Texas Hold'em AI Assistant, Poker AI Tool, 
 This software is provided for learning, research, and demonstration purposes only. Commercial use requires a separate license agreement.
 
 
-联系我们
+### 联系我们
 | 渠道          | 联系方式                                                                         |
 | ----------- | ---------------------------------------------------------------------------- |
 | 📧 Email    | <ttpoker40@gmail.com>                                                        |
