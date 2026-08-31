@@ -1,28 +1,27 @@
 # poker-gto-trainer｜扑克GTO训练器 | Poker GTO Trainer | 德州扑克AI决策辅助工具 | CFR+深度学习 | 毫秒级决策
+<p align="center">
+  <img src="https://img.shields.io/badge/C%2B%2B-17-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++17">
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.10+">
+  <img src="https://img.shields.io/badge/PyTorch-2.0+-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">
+  <img src="https://img.shields.io/badge/GTO-Strategy-orange?style=for-the-badge" alt="GTO">
+  <img src="https://img.shields.io/badge/CFR-Algorithm-blueviolet?style=for-the-badge" alt="CFR">
+</p>
 
-&lt;p align="center"&gt;
-  &lt;img src="https://img.shields.io/badge/C%2B%2B-17-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++17"&gt;
-  &lt;img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.10+"&gt;
-  &lt;img src="https://img.shields.io/badge/PyTorch-2.0+-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"&gt;
-  &lt;img src="https://img.shields.io/badge/GTO-Strategy-orange?style=for-the-badge" alt="GTO"&gt;
-  &lt;img src="https://img.shields.io/badge/CFR-Algorithm-blueviolet?style=for-the-badge" alt="CFR"&gt;
-&lt;/p&gt;
+<h1 align="center">🃏 Poker GTO Trainer</h1>
+<p align="center">
+  <b>扑克GTO训练器 — 基于CFR算法与深度神经网络的德州扑克决策辅助工具</b><br>
+  <b>Poker GTO Trainer | Texas Hold'em AI Decision Assistant | CFR + Deep Learning</b><br>
+  <b>支持1v1到1v9对战 | 毫秒级决策 | 强化学习自博弈训练</b>
+</p>
 
-&lt;h1 align="center"&gt;🃏 Poker GTO Trainer&lt;/h1&gt;
 
-&lt;p align="center"&gt;
-  &lt;b&gt;扑克GTO训练器 — 基于CFR算法与深度神经网络的德州扑克决策辅助工具&lt;/b&gt;&lt;br&gt;
-  &lt;b&gt;Poker GTO Trainer | Texas Hold'em AI Decision Assistant | CFR + Deep Learning&lt;/b&gt;&lt;br&gt;
-  &lt;b&gt;支持1v1到1v9对战 | 毫秒级决策 | 强化学习自博弈训练&lt;/b&gt;
-&lt;/p&gt;
-
-&lt;p align="center"&gt;
-  &lt;a href="#功能特性"&gt;🎯 功能特性&lt;/a&gt; •
-  &lt;a href="#技术架构"&gt;⚙️ 技术架构&lt;/a&gt; •
-  &lt;a href="#快速开始"&gt;🚀 快速开始&lt;/a&gt; •
-  &lt;a href="#API示例"&gt;📡 API示例&lt;/a&gt; •
-  &lt;a href="#性能数据"&gt;📊 性能数据&lt;/a&gt;
-&lt;/p&gt;
+<p align="center">
+  <a href="#功能特性">🎯 功能特性</a> •
+  <a href="#技术架构">⚙️ 技术架构</a> •
+  <a href="#快速开始">🚀 快速开始</a> •
+  <a href="#API示例">📡 API示例</a> •
+  <a href="#性能数据">📊 性能数据</a>
+</p>
 
 ---
 
@@ -271,3 +270,31 @@ SEO关键词
 以下关键词用于搜索引擎索引，覆盖全球多语言搜索场景
 中文关键词： 扑克GTO训练器、德州扑克AI工具、扑克AI助手、CFR算法实现、反事实遗憾最小化、博弈论最优策略、非完美信息博弈、强化学习扑克、深度神经网络扑克、多智能体决策、扑克AI引擎、扑克策略求解器、GTO策略学习、纳什均衡扑克、德州扑克机器人、扑克AI训练、自我博弈训练、扑克决策系统、扑克策略分析、扑克游戏AI、AI扑克对手、智能扑克系统、扑克API、扑克开发者工具
 English Keywords: Poker GTO Trainer, Texas Hold'em AI Assistant, Poker AI Tool, CFR Poker AI, Counterfactual Regret Minimization, Game Theory Optimal Poker, Imperfect Information Game AI, Reinforcement Learning Poker, Deep Learning Poker, Multi-Agent Decision Making, Poker Bot Engine, GTO Strategy Engine, Nash Equilibrium Poker, Poker AI Source Code, Self-Play Poker Training, Poker Decision System, Poker Strategy Solver, Poker Game AI, AI Poker Opponent, Intelligent Poker System, Heads-Up Poker AI, No-Limit Texas Hold'em AI, Poker AI Research, Poker AI Benchmark, Poker AI GitHub, Open Source Poker AI, Poker AI Tutorial, Poker AI Implementation, Poker AI C++, Poker AI Python, Poker AI PyTorch, Poker Developer API, Poker AI Library
+
+
+许可证
+
+本项目采用 MIT License 开源协议。
+📚 学习用途：允许自由下载、学习、研究
+🔬 学术用途：允许在论文和研究中引用
+🏢 商业用途：需获取商业授权，请联系下方邮箱
+This software is provided for learning, research, and demonstration purposes only. Commercial use requires a separate license agreement.
+
+
+联系我们
+| 渠道          | 联系方式                                                                         |
+| ----------- | ---------------------------------------------------------------------------- |
+| 📧 Email    | <ttpoker40@gmail.com>                                                        |
+| 💬 Telegram | [@alibabama401](https://t.me/alibabama401)                                   |
+| 🐛 Issues   | [GitHub Issues](https://github.com/alibabamayun888/poker-gto-trainer/issues) |
+
+
+
+<p align="center">
+  <b>⭐ 如果这个项目对你的研究有帮助，请点个 Star 支持一下！⭐</b><br>
+  <i>If this project helps your research, please give it a star and share it with your peers!</i><br><br>
+  <a href="https://github.com/alibabamayun888/poker-gto-trainer/stargazers">
+    <img src="https://img.shields.io/github/stars/alibabamayun888/poker-gto-trainer?style=social" alt="Give a Star">
+  </a>
+</p>
+```
