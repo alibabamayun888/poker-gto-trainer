@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://alibabamayun888.github.io/poker-gto-trainer/sitemap.xml
