@@ -45,7 +45,6 @@
 - [应用场景](#应用场景)
 - [项目结构](#项目结构)
 - [常见问题](#常见问题)
-- [SEO关键词](#seo关键词)
 - [许可证](#许可证)
 - [联系我们](#联系我们)
 
@@ -57,7 +56,6 @@
 
 本工具支持**1v1单挑**到**1v9多人对战**模式，采用自我博弈强化学习训练，可实现**毫秒级实时决策输出**。适用于策略学习、AI陪练、决策分析等场景。
 
-&gt; **适合搜索关键词**：扑克GTO训练器、德州扑克AI工具、Poker GTO Trainer、Texas Hold'em AI Assistant、CFR算法实现、Counterfactual Regret Minimization、博弈论最优策略、非完美信息博弈、强化学习扑克、深度神经网络扑克、多智能体决策、扑克AI引擎、扑克策略求解器、GTO策略学习、纳什均衡扑克
 
 | 语言 | 项目名称 |
 |------|---------|
@@ -272,11 +270,7 @@ A: 支持。可在opponent/目录下定义新的对手策略，并在配置文�
 Q8: 需要多少算力才能运行？
 A: 推理阶段仅需普通CPU即可运行；训练阶段建议配备多核服务器与充足内存。
 
-### SEO关键词
 
-以下关键词用于搜索引擎索引，覆盖全球多语言搜索场景
-中文关键词： 扑克GTO训练器、德州扑克AI工具、扑克AI助手、CFR算法实现、反事实遗憾最小化、博弈论最优策略、非完美信息博弈、强化学习扑克、深度神经网络扑克、多智能体决策、扑克AI引擎、扑克策略求解器、GTO策略学习、纳什均衡扑克、德州扑克机器人、扑克AI训练、自我博弈训练、扑克决策系统、扑克策略分析、扑克游戏AI、AI扑克对手、智能扑克系统、扑克API、扑克开发者工具
-English Keywords: Poker GTO Trainer, Texas Hold'em AI Assistant, Poker AI Tool, CFR Poker AI, Counterfactual Regret Minimization, Game Theory Optimal Poker, Imperfect Information Game AI, Reinforcement Learning Poker, Deep Learning Poker, Multi-Agent Decision Making, Poker Bot Engine, GTO Strategy Engine, Nash Equilibrium Poker, Poker AI Source Code, Self-Play Poker Training, Poker Decision System, Poker Strategy Solver, Poker Game AI, AI Poker Opponent, Intelligent Poker System, Heads-Up Poker AI, No-Limit Texas Hold'em AI, Poker AI Research, Poker AI Benchmark, Poker AI GitHub, Open Source Poker AI, Poker AI Tutorial, Poker AI Implementation, Poker AI C++, Poker AI Python, Poker AI PyTorch, Poker Developer API, Poker AI Library
 
 
 ### 许可证
